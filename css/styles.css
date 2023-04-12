@@ -42,6 +42,9 @@ textarea{
 	background: eee;
 	padding: 10px;
 }
+.mention{
+	font-size: 12px;
+}
 .form-label{
 	border: 3px solid #dec0f1;
 }
