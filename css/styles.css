@@ -1,0 +1,70 @@
+header{
+	background-color: #fee9e1;
+	color: #957fef;
+	border-radius:0 0 10px 10px;
+	padding: 10px;
+	text-align: center;
+	font-size: 12px;
+}
+main{
+	background-color: #eee;
+	padding: 10px;
+	
+}
+footer{
+	background-color: #b79ced;
+	border-radius:10px 10px 0 0 ;
+	padding: 10px;
+	text-align: center;
+}
+textarea{
+	resize: none;
+	border-radius: 25px;
+	border: 2px solid #dec0f1;	
+	background: eee;
+	padding: 10px;
+}
+textarea:hover{
+	border: 2px solid #f7b801;
+}
+button{
+	margin: 10px 10px;
+	
+}
+.cajaPrincipal{
+	width: 100%;
+	
+}
+.cajaSecundaria{
+	width: 100%;
+
+}
+.redes{
+	margin: 0 10px;
+}
+
+@media screen and (min-width: 540px){
+body{
+	max-width: 980px;
+	margin: 0 auto;
+
+}
+header{
+	padding: 20px;
+	font-size: 16px;
+}
+main{
+	padding: 20px;
+}
+footer{
+	padding: 20px;
+}
+.contenedorPrincipal{
+	width: 65%;
+	margin-right: 20px ;
+}
+.contenedorSecundario{
+	width: 30%;
+}
+
+} 
